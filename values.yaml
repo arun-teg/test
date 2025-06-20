@@ -86,7 +86,7 @@ diagnosticMode:
 image:
   registry: docker.io
   repository: bitnami/nginx
-  tag: 1.23
+  tag: 1.28
   digest: ""
   ## Specify a imagePullPolicy
   ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
@@ -709,7 +709,7 @@ service:
 networkPolicy:
   ## @param networkPolicy.enabled Specifies whether a NetworkPolicy should be created
   ##
-  enabled: false
+  enabled: true
   ## @param networkPolicy.allowExternal Don't require server label for connections
   ## The Policy model to apply. When set to false, only pods with the correct
   ## server label will have network access to the ports server is listening
