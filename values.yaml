@@ -85,7 +85,7 @@ diagnosticMode:
 ##
 image:
   registry: docker.io
-  repository: bitnami/nginxsdfsadfsdfsf
+  repository: bitnami/nginx
   tag: 1.27
   digest: ""
   ## Specify a imagePullPolicy
