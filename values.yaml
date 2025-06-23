@@ -85,8 +85,8 @@ diagnosticMode:
 ##
 image:
   registry: docker.io
-  repository: bitnami/nginx
-  tag: 1.28
+  repository: bitnami/nginxsdfsadfsdfsf
+  tag: 1.27
   digest: ""
   ## Specify a imagePullPolicy
   ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
@@ -583,7 +583,16 @@ cloneStaticSiteFromGit:
   extraEnvVars: []
   ## @param cloneStaticSiteFromGit.extraEnvVarsSecret Secret with extra environment variables
   ##
-  extraEnvVarsSecret: ""
+  #extraEnvVarsSecret: ""
+  #volumeMounts:
+  #- name: missing-volume
+  #  mountPath: /etc/missing-volume
+
+  #volumes:
+  #  - name: missing-volume
+  #    configMap:
+  #      name: non-existent-configmap
+
   ## @param cloneStaticSiteFromGit.extraVolumeMounts Add extra volume mounts for the Git containers
   ## Useful to mount keys to connect through ssh. (normally used with extraVolumes)
   ## E.g:
