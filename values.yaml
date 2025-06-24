@@ -29,7 +29,7 @@ diagnosticMode:
 image:
   registry: docker.io
   repository: bitnami/nginx
-  tag: 1.23
+  tag: 1.27
   digest: ""
   pullPolicy: IfNotPresent
   pullSecrets: []
