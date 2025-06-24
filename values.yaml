@@ -28,8 +28,8 @@ diagnosticMode:
 
 image:
   registry: docker.io
-  repository: bitnami/nginxrr
-  tag: 1.27
+  repository: bitnami/nginx
+  tag: 1.23
   digest: ""
   pullPolicy: IfNotPresent
   pullSecrets: []
